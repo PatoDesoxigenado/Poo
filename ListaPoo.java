@@ -1,7 +1,4 @@
-package PooLista;
-
 public class ListaPoo {
-
 	public static void main(String[] args) {
 	
 		Lista l = new Lista();
