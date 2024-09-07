@@ -29,11 +29,7 @@ public class Lista {
             cont++;
         }
 
-        if (aux != null) {
         return aux;
-        } else {
-            return null;
-        }
     }
 
     public static void main(String[] args) {
@@ -45,12 +41,12 @@ public class Lista {
 
         lata.mostraLista();
 
-        System.out.println("Procurando número " + 3 + ':');
+        System.out.println("Procurando número " + 6 + ':');
         
-        if (lata.localizarBloco(3) == null) {
+        if (lata.localizarBloco(6) == null) {
             System.out.println("Número não existe na lista");
         } else {
-            System.out.println(lata.localizarBloco(3).getValor());
+            System.out.println(lata.localizarBloco(6).getValor());
         }
     }
 }
